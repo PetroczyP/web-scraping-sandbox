@@ -1,5 +1,5 @@
 import sys
-from scraper import Scraper
+from SRC.scraper import Scraper  # Updated import path
 
 def main(url):
     scraper = Scraper(url)
