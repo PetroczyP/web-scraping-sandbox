@@ -47,6 +47,44 @@ The Web Scraping Sandbox is a modular and extensible web scraping framework desi
    docker run -it --rm web-scraping-sandbox
    ```
 
+### Setting Up and Running the React UI
+
+1. Navigate to the `web-scraping-sandbox/ui` directory:
+
+   ```bash
+   cd web-scraping-sandbox/ui
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the React development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000` to access the UI.
+
+### Running the Docker Container with the UI
+
+1. Build the Docker image:
+
+   ```bash
+   docker build -t web-scraping-sandbox .
+   ```
+
+2. Run the Docker container:
+
+   ```bash
+   docker run -it --rm -p 3000:3000 -p 5000:5000 web-scraping-sandbox
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000` to access the UI.
+
 ## Running Tests
 
 To run the unit tests using pytest, execute the following command:
