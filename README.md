@@ -1,4 +1,5 @@
 # Web Scraping Sandbox
+# IMPORTANT NOTE: This project is a test project that I have created using Copilot Workspace. I am using the project for testing with other AI-collaboration platforms, RAG / Index it and feed it to AI agents and simply having fun with it.
 
 ## Project Description and Purpose
 
